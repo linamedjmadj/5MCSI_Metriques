@@ -39,7 +39,7 @@ def histogramme():
 def commits():
     # Remplacez 'VOTRE-USERNAME' et 'VOTRE-REPO' par vos vraies valeurs
     # Exemple : https://api.github.com/repos/ryan-dupont/5MCSI_Metriques/commits
-    response = urlopen('https://api.github.com/repos/ryanvaugarni/5MCSI_Metriques/commits')
+    response = urlopen('https://api.github.com/repos/linamedjmadj/5MCSI_Metriques/commits')
     raw_content = response.read()
     json_content = json.loads(raw_content.decode('utf-8'))
     
